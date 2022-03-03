@@ -1,0 +1,61 @@
+body {
+	background-color: FFFBE9;
+	color: dark;
+	font-family: Avenir;
+}
+h1, h2, h3, h4, h5{
+	font-family: Courier;
+	color: CEAB93;
+}
+h2, h4, h3,h5{
+	font-size: 20;
+}
+#profil{
+	width: 150px;
+	border-radius: 30% ;
+	border: 2px solid black;
+}
+h1{
+	color: ECA6A6;
+	font-family: Times News Roman;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+a{text-decoration:none ;
+color:EF6D6D ;}
+
+
+/* Custom design with class */
+.Structure {
+	text-align: center;
+
+	width: 700px;
+	margin: 40px auto;
+	background: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 15px 35px rgb(50 50 93)
+
+
+}
+@media(max-width: 500px){
+	.Structure{
+		width: 400px;
+	}
+}
+@media(max-width: 760px){
+	.Structure{
+		width: 600px;
+	}
+}
+
+#instagram{
+	width: 30px;
+	border-radius: 40%;
+}
+
+#facebook{
+	width: 30px;
+	border-radius: 40%;
+}
